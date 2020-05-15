@@ -1,0 +1,5 @@
+ssh jenkins@34.86.195.35 <<EOF
+  cd /home/bomsy2real
+  mkdir game &&cd game
+  git clone http://35.188.112.112/root/game.git
+EOF
